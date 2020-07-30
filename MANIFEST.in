@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include covid_plasma_donation *.css
+recursive-include covid_plasma_donation *.csv
+recursive-include covid_plasma_donation *.html
+recursive-include covid_plasma_donation *.ico
+recursive-include covid_plasma_donation *.js
+recursive-include covid_plasma_donation *.json
+recursive-include covid_plasma_donation *.md
+recursive-include covid_plasma_donation *.png
+recursive-include covid_plasma_donation *.py
+recursive-include covid_plasma_donation *.svg
+recursive-include covid_plasma_donation *.txt
+recursive-exclude covid_plasma_donation *.pyc
